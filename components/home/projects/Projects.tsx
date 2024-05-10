@@ -71,8 +71,8 @@ const projects = [
       <>
         <p>
           Designed an immersive and visually appealing landing page that
-          showcases Natours' tour offerings through captivating CSS animations
-          and responsive layout.
+          showcases Natours&apos; tour offerings through captivating CSS
+          animations and responsive layout.
         </p>
         <p>
           Demonstrated expertise in frontend development by seamlessly
@@ -109,8 +109,8 @@ const projects = [
         </p>
         <p>
           Utilized clean and modern design principles to convey professionalism
-          and trustworthiness, enhancing the institute's online presence and
-          credibility in the medical field.
+          and trustworthiness, enhancing the institute&apos;s online presence
+          and credibility in the medical field.
         </p>
       </>
     ),
@@ -134,13 +134,13 @@ const projects = [
       <>
         <p>
           Created a visually compelling landing page for Omnifoods, highlighting
-          the company's innovative approach to providing personalized nutrition
-          solutions through sleek design and clear messaging.
+          the company&apos;s innovative approach to providing personalized
+          nutrition solutions through sleek design and clear messaging.
         </p>
         <p>
           Focused on user engagement and conversion optimization by designing an
           intuitive and informative interface that effectively communicates
-          Omnifoods' value proposition and encourages sign-ups.
+          Omnifoods&apos; value proposition and encourages sign-ups.
         </p>
       </>
     ),

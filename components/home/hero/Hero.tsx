@@ -26,7 +26,7 @@ export const Hero = () => {
               Passionate Frontend Developer adept in HTML5, CSS3, and JavaScript
               ES6, specializing in React JS. Skilled in responsive design and
               UI/UX principles, I excel in crafting engaging web experiences.
-              Let's collaborate to create impactful digital solutions!
+              Let&apos;s collaborate to create impactful digital solutions!
             </p>
           </Reveal>
           <Reveal>

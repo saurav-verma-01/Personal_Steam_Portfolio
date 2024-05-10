@@ -33,6 +33,8 @@ export const Contact = () => {
             </Link>{" "}
             if that&apos;s more your speed.
           </p>
+        </Reveal>
+        <Reveal width="100%">
           <p className={styles.contactAccent}>Sauravkumarverma22@gmail.com</p>
         </Reveal>
         <Reveal width="100%">
