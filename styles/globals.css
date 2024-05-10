@@ -1,13 +1,19 @@
 :root {
   font-size: 62.5%;
 
-  --background: rgb(17, 17, 17);
-  --bg-opaque: rgb(17, 17, 17, 0.25);
-  --background-light: rgb(35, 35, 35);
-  --background-dark: rgb(8, 8, 8);
+  --background: #111111;
+  --bg-opaque: #11111140;
+  --background-light: #232323;
+  --background-dark: #080808;
 
-  --text: rgb(235, 236, 243);
-  --brand: #bd5fff;
+  --text: #fff7eb;
+
+  --brand-1: #00dfff;
+  --brand-2: #ef476f;
+  --brand-2: #f77f00;
+  --brand-2: #fcf300;
+  --brand: #00dfff;
+  /* --brand: hsl(48, 84%, 81%); */
 
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
@@ -33,15 +39,6 @@ body {
   max-width: 100vw;
   scroll-behavior: smooth;
   font-size: var(--text-sm);
-  font-family: var(--font-quattrocento-sans);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-roboto-slab);
 }
 
 body {

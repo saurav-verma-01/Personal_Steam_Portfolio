@@ -1,5 +1,5 @@
 import styles from "./stats.module.scss";
-import { AiFillCode, AiFillSmile } from "react-icons/ai";
+import { AiFillCode } from "react-icons/ai";
 import { Reveal } from "@/components/utils/Reveal";
 
 export const Stats = () => {
@@ -8,7 +8,7 @@ export const Stats = () => {
       <Reveal>
         <div className={styles.statColumn}>
           <h4>
-            <AiFillCode size="3rem" color="var(--brand)" />
+            <AiFillCode size="3rem" color="var(--brand-1)" />
             <span>Languages & Libraries</span>
           </h4>
           <div className={styles.statGrid}>
@@ -31,7 +31,7 @@ export const Stats = () => {
       <Reveal>
         <div className={styles.statColumn}>
           <h4>
-            <AiFillCode size="3rem" color="var(--brand)" />
+            <AiFillCode size="3rem" color="var(--brand-1)" />
             <span>Tools & Technologies</span>
           </h4>
           <div className={styles.statGrid}>
@@ -47,25 +47,6 @@ export const Stats = () => {
             <span className="chip">Vite</span>
             <span className="chip">JSON</span>
             <span className="chip">Axios</span>
-          </div>
-        </div>
-      </Reveal>
-      <Reveal>
-        <div className={styles.statColumn}>
-          <h4>
-            <AiFillCode size="3rem" color="var(--brand)" />
-            <span>Technical Skills</span>
-          </h4>
-          <div className={styles.statGrid}>
-            <span className="chip">Javascript testing</span>
-            <span className="chip">Cross Side scripting</span>
-            <span className="chip">Responsive Web Design</span>
-            <span className="chip">Api Data Handling</span>
-            <span className="chip">Cross Browser Compatibility</span>
-            <span className="chip">Functional Programming</span>
-            <span className="chip">Web Performance Optimization</span>
-            <span className="chip">Asynchronous Javascript</span>
-            <span className="chip">Object Oriented Programming</span>
           </div>
         </div>
       </Reveal>

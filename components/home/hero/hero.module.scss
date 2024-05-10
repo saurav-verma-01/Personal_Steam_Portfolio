@@ -26,7 +26,7 @@
 
   font-family: var(--font-quattrocento);
   span {
-    color: var(--brand);
+    color: var(--brand-1);
   }
 
   @media (max-width: 768px) {
@@ -42,7 +42,7 @@
   font-family: var(--font-quattrocento);
   span {
     font-weight: 700;
-    color: var(--brand);
+    color: var(--brand-2);
   }
 }
 

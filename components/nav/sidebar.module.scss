@@ -17,9 +17,12 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 
+  span {
+    color: var(--brand-1);
+    font-weight: 700;
+  }
   a {
     height: 100px;
-
     flex-shrink: 0;
 
     writing-mode: vertical-lr;
@@ -38,13 +41,13 @@
 
   a:hover {
     background: var(--background);
-    border-right: 1px solid var(--brand);
+    border-right: 1px solid var(--brand-2);
     opacity: 1;
   }
 
   .selected {
     background: var(--background);
-    border-right: 1px solid var(--brand);
+    border-right: 1px solid var(--brand-1);
     opacity: 1;
   }
 }
@@ -73,7 +76,7 @@
     font-size: var(--text-md);
     font-weight: 900;
     line-height: 1;
-    color: var(--brand);
+    color: var(--brand-1);
   }
 }
 

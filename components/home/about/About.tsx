@@ -3,7 +3,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import styles from "./about.module.scss";
 import { Stats } from "./Stats";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillCode, AiOutlineArrowRight } from "react-icons/ai";
 
 export const About = () => {
   return (
@@ -61,6 +61,25 @@ export const About = () => {
               can turn your ideas into something amazing, I'm your person! Let's
               work together and create something awesome! 🔗
             </p>
+          </Reveal>
+          <Reveal>
+            <div className={styles.statColumn}>
+              <h4>
+                <AiFillCode size="3rem" color="var(--brand-1)" />
+                <span>Things I can help you with.</span>
+              </h4>
+              <div className={styles.statGrid}>
+                <span className="chip">Javascript testing</span>
+                <span className="chip">Cross Side scripting</span>
+                <span className="chip">Responsive Web Design</span>
+                <span className="chip">Api Data Handling</span>
+                <span className="chip">Cross Browser Compatibility</span>
+                <span className="chip">Functional Programming</span>
+                <span className="chip">Web Performance Optimization</span>
+                <span className="chip">Asynchronous Javascript</span>
+                <span className="chip">Object Oriented Programming</span>
+              </div>
+            </div>
           </Reveal>
           <Reveal>
             <div className={styles.links}>

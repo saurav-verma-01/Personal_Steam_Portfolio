@@ -6,9 +6,9 @@
   margin-block-start: 20px;
   padding: 1.25rem 4rem;
 
-  border: 2px solid var(--brand);
+  border: 2px solid var(--brand-2);
   background: transparent;
-  color: var(--brand);
+  color: var(--brand-2);
   font-size: var(--text-md);
   border-radius: 4px;
 
@@ -32,26 +32,42 @@
   }
 }
 
-.outlineButton::before {
+.outlineButton::before,
+.outlineButton::after {
   content: "";
   position: absolute;
   z-index: -1;
-  background: var(--brand);
+  background: var(--brand-1);
 
+  width: 50%;
   height: 100%;
-  width: 100%;
+}
 
-  left: -100%;
-  top: -100%;
-
-  transition: 0.2s left, 0.2s top;
+.outlineButton::before {
+  left: -50%;
+  top: 0;
+  transition: 0.3s left;
+}
+.outlineButton::after {
+  right: -50%;
+  top: 0;
+  transition: 0.3s right;
 }
 
 .outlineButton:hover {
   color: var(--text);
+  border: 2px solid var(--brand-1);
 }
 
 .outlineButton:hover::before {
   left: 0;
-  top: 0;
+}
+.outlineButton:hover::after {
+  right: 0;
+}
+
+.outlineButton:active,
+.outlineButton:active::before,
+.outlineButton:active::after {
+  background-color: transparent;
 }
