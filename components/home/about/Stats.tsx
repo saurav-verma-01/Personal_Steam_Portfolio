@@ -53,7 +53,7 @@ export const Stats = () => {
       <Reveal>
         <div className={styles.statColumn}>
           <h4>
-            <AiFillSmile size="3rem" color="var(--brand)" />
+            <AiFillCode size="3rem" color="var(--brand)" />
             <span>Technical Skills</span>
           </h4>
           <div className={styles.statGrid}>

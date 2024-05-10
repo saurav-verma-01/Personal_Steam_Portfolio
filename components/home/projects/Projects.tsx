@@ -18,65 +18,66 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Classified",
-    imgSrc: "/project-imgs/agency-listing.png",
-    code: "#",
-    projectLink: "#",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
-    description: "An Insurance Agency Listing Web Application.",
+    title: "Nike Landing Page",
+    imgSrc: "/project-imgs/nike-mockup.jpg",
+    code: "https://github.com/saurav-verma-01/Nike-Landing-Page-Tailwind-React",
+    projectLink: "https://nike-tailwind-react.netlify.app/",
+    tech: ["React", "Tailwind", "Vite"],
+    description: "A sleek and high-performance landing page for Nike.",
     modalContent: (
       <>
         <p>
-          Worked as a front-end developer and created dynamic reusable
-          components and base layout from a mock-up.
+          Exhibited mastery in crafting visually appealing and user-friendly
+          interfaces, evident in the sleek design of the Nike landing page.
         </p>
         <p>
-          The tech stack is based on Nextjs with the custom tailwind components,
-          connected to a Prisma backend.
+          Ensured optimal performance and smooth user experience through
+          meticulous attention to detail and streamlined functionality.
         </p>
       </>
     ),
   },
   {
-    title: "Elancerz",
-    imgSrc: "/project-imgs/elancerz.png",
-    code: "https://www.github.com",
-    projectLink: "https://elancerz.com/",
-    tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
+    title: "Dribble Clone",
+    imgSrc: "/project-imgs/dribble-mockup.jpg",
+    code: "https://github.com/saurav-verma-01/dribble-clone/",
+    projectLink: "https://dribbble-sv.netlify.app/",
+    tech: ["HTML", "CSS", "JavaScript"],
     description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
+      "Created a frontend clone of a Dribbble design to replicate the original aesthetic and functionality.",
     modalContent: (
       <>
         <p>
-          Worked as a front-end developer and created dynamic reusable
-          components, integrated calendly, messaging and project management
-          features.
+          Recreated the intricate design elements and interactive features of a
+          Dribbble design, demonstrating proficiency in frontend development.
         </p>
         <p>
-          The tech stack is based on Nextjs with the custom Styled components,
-          connected to a Laravel backend, with data stored in Mysql.
+          Focused on maintaining fidelity to the original design while ensuring
+          cross-browser compatibility and responsive layout for seamless user
+          experience.
         </p>
       </>
     ),
   },
   {
-    title: "Agency Iron Admin",
-    imgSrc: "/project-imgs/agency-iron-crm.png",
-    code: "https://www.github.com",
-    // projectLink: "https://agency-iron-crm.herokuapp.com/",
-    projectLink: "#",
-    tech: ["React", "MUI", "MongoDB", "Postgres", "Python"],
+    title: "Natours Landing Page",
+    imgSrc: "/project-imgs/natours-mockup.jpg",
+    code: "https://github.com/saurav-verma-01/Natours-Landing-Page-Design",
+    projectLink: "https://gleaming-natours.netlify.app/",
+    tech: ["HTML", "SCSS", "Modern CSS", "Responsive Design", "CSS Animations"],
     description:
-      "A Dashboard for clients and admin of Rocky Mountain West Insurance LLC. using Vuejs and re-worked using Reactjs.",
+      "A captivating landing page for Natours, a nature tour company, featuring stunning CSS animations and responsive design.",
     modalContent: (
       <>
         <p>
-          Worked as a front-end developer for this web application. Integrated
-          api&apos;s, Created dynamic and reusable components.
+          Designed an immersive and visually appealing landing page that
+          showcases Natours' tour offerings through captivating CSS animations
+          and responsive layout.
         </p>
         <p>
-          I work primarily on the frontend, creating reusable components and
-          integrating api.
+          Demonstrated expertise in frontend development by seamlessly
+          integrating HTML and SCSS to create a dynamic and engaging user
+          experience for visitors interested in nature tours.
         </p>
         <p>
           The team in total consists of 3 developers. This is a passion project
@@ -86,78 +87,92 @@ const projects = [
     ),
   },
   {
-    title: "WorshipHIM",
-    imgSrc: "/project-imgs/wh_app.png",
-    code: "https://www.github.com",
-    projectLink:
-      "https://play.google.com/store/apps/details?id=com.ellinx.lightapps.worshiphim&hl=en&gl=US",
-    tech: ["React", "React Native", "Styled Components", "Android"],
+    title: "Medica - The Med connection",
+    imgSrc: "/project-imgs/medica-mockup.jpg",
+    code: "https://github.com/saurav-verma-01/Medica---The-Med-Connection",
+    projectLink: "https://medica-the-med-connection.netlify.app/",
+    tech: [
+      "HTML",
+      "SCSS",
+      "CSS Animations",
+      "SCSS Variables",
+      "Responsive Design",
+    ],
     description:
-      "WorshipHIM is a chord and lyrics app developed to help ease everyone in their worship to God.",
+      "A landing page for Med Connection, a medical institute, focusing on seamless user experience and informative content.",
     modalContent: (
       <>
         <p>
-          WorshipHIM is a chord and lyrics app developed to help ease everyone
-          in their worship to God. So that all may know, from the rising of the
-          sun to its setting, That there is none besides God. He is the Lord and
-          there&apos;s no other! Praise Him, Worship Him!
+          Crafted a user-centric landing page for Med Connection, prioritizing
+          intuitive navigation and informative content to connect users with
+          medical services effectively.
         </p>
-        <p>This is a very fun project that i made using React Native.</p>
+        <p>
+          Utilized clean and modern design principles to convey professionalism
+          and trustworthiness, enhancing the institute's online presence and
+          credibility in the medical field.
+        </p>
       </>
     ),
   },
   {
-    title: "WorshipHIM Landing Page",
-    imgSrc: "/project-imgs/worshiphim.png",
-    code: "https://www.github.com",
-    projectLink: "https://worshiphim.vercel.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Google Play Scrapper", "Ko-Fi"],
+    title: "Omnifoods",
+    imgSrc: "/project-imgs/omnifoods-mockup.jpg",
+    code: "https://github.com/saurav-verma-01/Omnifoods",
+    projectLink: "https://omnifood-saurav.netlify.app/",
+    tech: [
+      "HTML",
+      "CSS",
+      "CSS Animations",
+      "CSS Variables",
+      "Responsive Design",
+      "Web Design",
+    ],
     description:
-      "Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.",
+      "Landing Page of a technology company offering premium, fitness-oriented food subscriptions tailored to customers.",
     modalContent: (
       <>
         <p>
-          This is another self project that i made to showcase our mobile app.
+          Created a visually compelling landing page for Omnifoods, highlighting
+          the company's innovative approach to providing personalized nutrition
+          solutions through sleek design and clear messaging.
         </p>
         <p>
-          I integrated ko-fi donation and uses Template for this Nextjs Project.
-          I also use a plugin for scrapping data from our google play to display
-          directly on the landing page.
+          Focused on user engagement and conversion optimization by designing an
+          intuitive and informative interface that effectively communicates
+          Omnifoods' value proposition and encourages sign-ups.
         </p>
       </>
     ),
   },
   {
-    title: "Portfolio v.2",
-    imgSrc: "/project-imgs/portfolio-01.png",
-    code: "https://github.com/jcdevz-dev/portfolio",
-    projectLink: "#",
-    tech: ["React", "Styled Components", "Typescript", "Gatsby"],
-    description: "First Portfolio Made with React JS",
+    title: "E-learning Website",
+    imgSrc: "/project-imgs/e-learning-mockup.jpg",
+    code: "https://github.com/saurav-verma-01/e-learning-platform-responsive-website",
+    projectLink: "https://e-learning-wapp.netlify.app/",
+    tech: [
+      "HTML",
+      "CSS",
+      "CSS Animations",
+      "CSS Variables",
+      "Responsive Design",
+      "Web Design",
+    ],
+    description:
+      "A comprehensive multi-page website for an e-learning company entirely using Vanilla HTML, CSS, and JavaScript.",
     modalContent: (
       <>
         <p>
-          This is my second version of my portfolio that i made to showcase my
-          projects.
+          Built a robust and feature-rich website for the e-learning company,
+          leveraging the power of Vanilla HTML, CSS, and JavaScript to deliver
+          an immersive and interactive learning experience across multiple
+          pages.
         </p>
-        <p>Trying out gatsby and creating my second version of portfolio</p>
-      </>
-    ),
-  },
-  {
-    title: "Portfolio v.1",
-    imgSrc: "/project-imgs/portfolio-00.png",
-    code: "https://github.com/jcdevz-dev/jc-portfolio",
-    projectLink: "https://jc-devera.vercel.app/",
-    tech: ["React", "Styled Components", "Typescript"],
-    description: "First Portfolio Made with React JS",
-    modalContent: (
-      <>
         <p>
-          This is my first version of my portfolio that i made to showcase my
-          projects.
+          Focused on usability and accessibility by implementing intuitive
+          navigation, engaging content presentation, and seamless functionality,
+          catering to the diverse needs of learners and educators.
         </p>
-        <p>First step for learning React JS and creating my portfolio</p>
       </>
     ),
   },
