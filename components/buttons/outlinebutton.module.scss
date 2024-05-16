@@ -3,7 +3,7 @@
   border: none;
   cursor: pointer;
 
-  margin-block-start: 20px;
+  margin-block-start: 10px;
   padding: 1.25rem 4rem;
 
   border: 2px solid var(--brand-2);
@@ -23,7 +23,7 @@
     display: none;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 480px) {
     font-size: 0;
     padding: 0.5rem 0.5rem;
     svg {

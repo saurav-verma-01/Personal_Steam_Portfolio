@@ -13,7 +13,7 @@ export default function home() {
           name="description"
           content="Saurav Kumar Verma | Frontend Developer | Professional Portfolio"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta
           property="og:title"
           content="Saurav Kumar Verma | Frontend Developer | Professional Portfolio"
@@ -51,10 +51,8 @@ export default function home() {
           content="Hey! I'm Saurav Kumar Verma, and I'm a Frontend Developer with a degree in Computer Science Engineering."
         />
         <meta name="twitter:creator" content="@jc_devz" />
-        <meta
-          name="twitter:image"
-          content="https://deverajc.com/screenshot.png"
-        />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Home />
     </>

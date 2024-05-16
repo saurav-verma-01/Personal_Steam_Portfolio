@@ -6,25 +6,11 @@ export const Heading = () => {
   return (
     <header className={styles.heading}>
       <MyLinks />
-      {/* <div className={styles.headingButtons}> */}
-
-      <OutlineButton onClick={() => window.open("/saurav-verma-resume.pdf")}>
-        My resume
-      </OutlineButton>
-      {/* </div> */}
+      <div className={styles.headingButtons}>
+        <OutlineButton onClick={() => window.open("/Saurav-resume-A.pdf")}>
+          My resume
+        </OutlineButton>
+      </div>
     </header>
   );
 };
-
-{
-  /* <a href="https://www.buymeacoffee.com/jcdevz" target="_blank">
-  <img
-    src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png"
-    alt="Buy Me A Coffee"
-    style={{
-      height: "46px !important",
-      width: "185px !important",
-    }}
-  />
-</a> */
-}
